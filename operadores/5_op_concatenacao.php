@@ -1,5 +1,4 @@
 <?php
-
     echo "Testando a concatenação";
     echo "<br>";
     echo "testando" . " a " . "concatenação";
@@ -15,6 +14,4 @@
     $vel_max = 200;
     //Saída: O carro da Ferrari tem um motor 3.0 e chega numa velocidade de 200 km/h
     echo "O carro da " . $marca . " tem um motor " . $motor . " e chega numa velocidade de " . $vel_max . " " . "km/h";
-
-
 ?>
