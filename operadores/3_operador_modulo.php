@@ -12,4 +12,14 @@
     //Saída: 3
     echo 13 % 5;
     echo "<br>";
+
+    $a = 20;
+    $b = 4;
+    $c = 12;
+
+    //Saída: 0
+    echo $a % $b;
+    echo "<br>";
+    //Saída: 8
+    echo $a % $c;
 ?>
