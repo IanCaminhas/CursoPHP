@@ -31,6 +31,9 @@
     //Saída: 99
     echo "$x global <br>";
 
-    //Resumo: escopo global não é alterado pelo local. Nem o escopo local é alterado pelo global.
+    /*
+    Resumo: escopo global não é alterado pelo escopo local das funções. 
+    O escopo local das funções não é alterado pelo escopo global.
+    */
 
 ?>
