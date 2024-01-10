@@ -17,8 +17,4 @@
         echo "0 é considerado falso! <br>";
     }
 
-    
-
-
-
 ?>
