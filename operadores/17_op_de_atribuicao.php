@@ -1,6 +1,5 @@
 <?php 
     //Operadores de atribuição: +=, -=, /=, *= e %=
-
     $a = 0;
     //$a +=10 é o mesmo que eu fizer $a = $a + 10;
     $a +=10;
@@ -38,10 +37,4 @@
     $f += $x;
     //Saída: 30
     echo $f . "<br>";
-
-
-    
-
-
-
 ?>
