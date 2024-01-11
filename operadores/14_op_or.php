@@ -39,8 +39,4 @@
      if(($a > $b && $d > $c) || $c < $d) {
         echo "A operação 7 é verdadeira <br>";
     }
-
-
-
-
 ?>
