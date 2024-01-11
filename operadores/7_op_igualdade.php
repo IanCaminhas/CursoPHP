@@ -43,6 +43,4 @@
     if ($jogadorIbis = $jogadorIbisSistema) {
         echo "O nome coincide 2<br>";
     }
-
-
 ?>
