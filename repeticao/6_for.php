@@ -26,7 +26,6 @@
 
     echo "<br>";
 
-
     //Usando break
 
     /* Saída:
