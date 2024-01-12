@@ -35,16 +35,16 @@
     }
 
     $w = "Ian";
-    //Saída: O nome não foi encontrado
+    //Saída: O nome é Ian
     switch($w) {
 
-        case 0:
-            echo "w é igual a 0<br>" ;
+        case "José":
+            echo "O nome é José<br>" ;
             break;
-        case 1:
-            echo "w é igual a 1 <br>";
+        case "Ian":
+            echo "O nome é Ian<br>";
             break;
         default:
-            echo "O nome não foi encontrado <br>";
+            echo "O nome não foi encontrado<br>";
     }
 ?>
