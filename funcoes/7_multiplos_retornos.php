@@ -1,5 +1,4 @@
 <?php
-
     function alteraDados($nome, $idade) {
 
         $nome = "Sr . $nome";
@@ -15,6 +14,4 @@
     echo "<br>";
     //Olá Sr . Ian, você tem 29 anos
     echo "Olá $dados[0], você tem $dados[1]"
-
-
 ?>
