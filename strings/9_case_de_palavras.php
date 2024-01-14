@@ -1,5 +1,4 @@
 <?php
-
     $frase = "testando o case de uma palavra <br>";
     $fraseInicialMaiuscula = "Testando o case de uma palavra <br>";
     $frase3 = "testando o case de todas as palavras";
@@ -15,5 +14,4 @@
         Saída: Testando O Case De Todas As Palavras
     */
     echo ucwords($frase3);
-
 ?>
