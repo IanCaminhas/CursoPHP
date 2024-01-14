@@ -1,7 +1,5 @@
 <?php
-
     $str = "Esta é a minha string";
-
     $minha = substr($str, 10, 5); // STRING PAI, INDICE INICIAL, COMPRIMENTO DA PALAVRA
 
     /*Saída: 
@@ -30,10 +28,4 @@
 
     //Saída: esta string
     echo $novaString2 . "<br>";
-
-
-
-
-
-
 ?>
