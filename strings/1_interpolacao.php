@@ -11,5 +11,4 @@
     /*Segunda forma de realizar a interpolação:
     Saída: Eu sou o Ian, tenho 29 anos e atuo como Estudante */
     echo "Eu sou o $nome, tenho $idade anos e atuo como {$profissao} <br>";
-
 ?>
