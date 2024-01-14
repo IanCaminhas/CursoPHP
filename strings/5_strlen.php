@@ -17,6 +17,4 @@
     } else {
         echo "A string 2 é maior que a string 1";
     }
-
-
 ?>
