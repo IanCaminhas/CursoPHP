@@ -6,7 +6,6 @@
             Vai aparcer <br> como texto mesmo.
         Em suma, para usar um valor de escape(\n), preciso usar esse header().
         Valores de ecape são para textos.
-    
     */
     header("Content-type: text/plain");
     //Saída: Teste <br>... \n é para pular linha
