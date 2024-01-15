@@ -1,5 +1,4 @@
 <?php
-
     /*  
         Para verificar se a chave do array associativo existe, posso usar
         o isset() ou array_key_exists().
