@@ -10,7 +10,7 @@
         Saída: Warning: compact(): Undefined variable $teste
     */
 
-    $carro = compact("marca", "motor", "tetoSolar", "portas", "teste");
+    $carro = compact("marca", "motor", "tetoSolar", "portas");
     /* Saída:
         Array ( [marca] => Fiat Toro [motor] => 1.0 [tetoSolar] => 1 [portas] => 4 ).
         Cada variável com seu respectivo valor se tornou uma par de chave/valor
