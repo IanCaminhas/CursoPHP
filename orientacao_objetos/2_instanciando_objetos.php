@@ -5,8 +5,8 @@ class User {
     //métodos
 }
 
-$user1 = new User();
-$user1 = new User();
-$user1 = new user();
+$user1 = new User;
+$user1 = new User;
+$user1 = new user;
 
 ?>
