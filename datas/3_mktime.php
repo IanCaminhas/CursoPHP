@@ -15,8 +15,4 @@
     $dataFuturaFormatada = date('m/d/y', $dataEspecifica);
     //Saída: 04/28/41
     echo $dataFuturaFormatada . "<br>";
-
-
-
-    
 ?>
