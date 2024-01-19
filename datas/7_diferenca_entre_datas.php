@@ -1,5 +1,4 @@
 <?php
-
     $dataA = new DateTime();
     $dataB = new DateTime();
 
@@ -19,5 +18,4 @@
     //Saída: 8131 days. Refere-se à diferença entre a data A e a data B.
     echo $diferenca->format("%a days");
     echo "<br>";
-
 ?>
