@@ -1,4 +1,5 @@
 <?php
+    //Por padrão, o objeto pega a data atual
     $data = new DateTime();
      /*
     Não consigo acessar o objeto via atributo ou array associativo.
