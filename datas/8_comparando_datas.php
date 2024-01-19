@@ -1,5 +1,4 @@
 <?php
-
     $dataA = new DateTime();
     $dataB = new DateTime();
 
