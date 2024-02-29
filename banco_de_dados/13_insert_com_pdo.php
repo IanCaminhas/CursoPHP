@@ -9,7 +9,11 @@
 
     /*
     Ao invés das interrogações usadas no mysqli, posso usar como placeholders: :nome e :descricao.
-    O PDO aceita esse formato. É mais intuitivo. É mais próximo com o valor da query
+    O PDO aceita esse formato. É mais intuitivo. É mais próximo com o valor da query. Outra explicação:
+
+    A variável $statement será a responsável por preparar a query SQL que será executada no BD.
+    Dois parâmetros foram criados nessa query: :nome e :descricao. 
+    Vamos definir o valor desses parâmetros usando o método bindParam():
 
     */
     $stmt = $conn->prepare("INSERT INTO itens (nome,descricao) VALUES (:nome, :descricao)");
@@ -29,6 +33,9 @@
     $stmt->bindParam(":nome", $nome);
     $stmt->bindParam(":descricao", $descricao);
 
+    /* 
+    O método execute() será o responsável por de fato executar a query SQL com os parâmetros no Banco de Dados
+    */
     $stmt->execute();
 
 ?>
