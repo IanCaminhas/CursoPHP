@@ -1,0 +1,132 @@
+.navbar-brand img {
+    width: 50px;
+}
+
+/* margem 15px em cima, 30px em baixo 0 nos lados */
+#main-title {
+    text-align: center;
+    margin: 15px 0 30px;
+}
+
+/* CSS da HOME */
+#contacts-table {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#contacts-table thead {
+    color: #FFF;
+    background-color: #007BFF;
+}
+
+.col-id {
+    font-weight: bold;
+}
+
+.actions {
+    text-align: right;
+    width: 150px;
+}
+
+.actions i {
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+/* Cor específica para cada ícone */
+.check-icon {
+    color: #1E7E34;
+}
+
+.edit-icon {
+    color: #007BFF;
+}
+
+.delete-form {
+    display: inline-block;
+}
+
+.delete-btn {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+
+.delete-icon {
+    color: #BD2130;
+}
+
+#empty-list-text {
+    text-align: center;
+}
+
+/* A mensagem da session.
+padding: 10px; => padding de 10px em todos os lados
+*/
+#msg {
+    color: #155724;
+    background-color: #D4EDDA;
+    border: 1px solid #C3E6CB;
+    padding: 10px;
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+/* show all contacts / display individual contact */
+
+/* Usando max-width: 500px; limito área de exibição do contato. 
+Se eu não fizer isso, o contato vai ocupar toda a largura da tela.
+margin: 0 auto; é para centralizar
+*/
+#view-contact-container {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+/* Olha só!!!!
+Uso essa regra de css que vai ser aplicada em todas
+as marcações que tiverem a classe .bold. A vantagem disso 
+é que centralizo em apenas um lugar.
+*/
+.bold {
+    font-weight: bold;
+}
+
+#back-link-container {
+    display: block;
+    width: 500px;
+    margin: 30px auto 0;
+}
+
+#back-link {
+    border: 1px solid #007BFF;
+    color: #007BFF;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+/* Retira o underline ao clicar no link. 
+Por padrão, o link possui um underline */
+#back-link:hover {
+    text-decoration: none;
+}
+
+/* CSS da página de adição dos dadoss */
+#create-form,
+#edit-form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+/* MOBILE */
+@media(max-width: 480px){
+    /* Ao ativar ativar a opção de mobile(tela até 480px),
+        apenas o link de Adicionar Contato fica disponível.
+    */
+    #home-link {
+        display: none;
+    }
+}
+
